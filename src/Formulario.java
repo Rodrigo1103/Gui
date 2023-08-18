@@ -92,8 +92,9 @@ public class Formulario extends javax.swing.JFrame {
         }else{
             JOptionPane.showMessageDialog((this), "Usuario y/o Contraseña incorrecto");
             jtUsuario.requestFocus();
-            
+            jtUsuario.setText("");
             jtContra.requestFocus();
+            jtContra.setText("");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
